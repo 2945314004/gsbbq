@@ -1,0 +1,126 @@
+/* 基本样式 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 页面结构样式 */
+header {
+    background-color: #0d3c55;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* 表单样式 */
+form label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 10px;
+}
+
+form input[type="text"],
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    background-color: #0d3c55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #135677;
+}
+
+form p {
+    color: red;
+    margin-top: 10px;
+}
+
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #0d3c55;
+    color: #fff;
+}
+
+td {
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.message-details {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.message-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.message-details p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.message-details pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+}
