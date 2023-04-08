@@ -8,8 +8,11 @@
 2.上传到服务器之后需要更改以下文件的数据库ip账号密码
 
 1.config.php
+
 2.\fankui\config.php
+
 3.\gr\config.php
+
 4.ip.php
 
 更改这几个文件的数据库信息就可以用了
